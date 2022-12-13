@@ -1,2 +1,25 @@
-#Link para download do Git: https://git-scm.com/downloads
+### Introdução ao Git e ao GitHub
+
+Link para download do Git: https://git-scm.com/downloads
+
+**Alguns comandos para usar no Git Bash**
+
+- mkdir   **cria um arquivo** 
+- Ctrl +L  **limpa tela**
+- ls **mostra  os arquivos que tem na pasta**
+- ls -a  **mostra  os arquivos que tem na pasta, inclusive .git**
+- cd + nome pasta  **entra na pasta** 
+- git init  **inicializa o repositório no git**
+- cd .. **volta um nível**
+- git config  --global user.email "____________________" ** entra no repositório**
+- git config --global user.name ______ **senha do repositório**
+- git status **status que esta o repositório**
+- mv arquivo.md ./pasta/ **move  arquivo para a pasta definida**
+- git add **adiciona uma alteração no diretório ativo à área de staging**
+- git commit -m "comentário" **faz o commit dos arquivos que encontran-se na área de stage**
+- git add * **move o untracked para o staged**
+- git remote add origin (link do github) **aponta o nosso repositório local para o remoto**
+- git remote -v **lista as conexoes remotas com URL**
+- git push origin master **empurra para o repositório remoto GitHub**
+- git pull origin master **puxar o que está no repositório remoto para nossa máquina**
 
